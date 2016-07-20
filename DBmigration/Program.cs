@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Configuration;
 using System.Data.SqlClient;
 
 namespace DBmigration
@@ -13,6 +10,7 @@ namespace DBmigration
             string connectionString =
                 "Data Source=(local);Initial Catalog=Source;"
                     + "Integrated Security=true;Connect Timeout=1200;Enlist=false";
+
             string queryString = "select first, second from dbo.first where first=@f";
 
             int paramValue = 1;

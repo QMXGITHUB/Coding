@@ -1,6 +1,0 @@
-C:\tw\DBmigration\bin\Debug\DBmigration.exe.config
-C:\tw\DBmigration\bin\Debug\DBmigration.exe
-C:\tw\DBmigration\bin\Debug\DBmigration.pdb
-C:\tw\DBmigration\obj\Debug\DBmigration.csprojResolveAssemblyReference.cache
-C:\tw\DBmigration\obj\Debug\DBmigration.exe
-C:\tw\DBmigration\obj\Debug\DBmigration.pdb
