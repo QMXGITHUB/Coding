@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineProcessorInCyberDojo", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{EC3CD8B7-59B8-4824-B744-DDF914D47271}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeSmell-StaticMethod", "CodeSmell-StaticMethod\CodeSmell-StaticMethod.csproj", "{9AA5C51E-3A6A-418C-9CEE-B0CB324E37F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EC3CD8B7-59B8-4824-B744-DDF914D47271}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC3CD8B7-59B8-4824-B744-DDF914D47271}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC3CD8B7-59B8-4824-B744-DDF914D47271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA5C51E-3A6A-418C-9CEE-B0CB324E37F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA5C51E-3A6A-418C-9CEE-B0CB324E37F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA5C51E-3A6A-418C-9CEE-B0CB324E37F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA5C51E-3A6A-418C-9CEE-B0CB324E37F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
