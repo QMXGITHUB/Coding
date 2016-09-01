@@ -1,4 +1,6 @@
-﻿namespace CodeSmell_StaticMethod
+﻿using System;
+
+namespace CodeSmell_StaticMethod
 {
     public class Person
     {
@@ -18,6 +20,17 @@
         public override string ToString()
         {
             return string.Format("{0}.{1}", FirstName, LastName);
+        }
+    }
+
+    public class Employee : Person
+    {
+        public string Boss { get; set; }
+        public string Departure { get; set; }
+
+        public override string ToString()
+        {
+            return String.Format("{0} {1} --- {2}", FirstName, LastName, Departure);
         }
     }
 }
