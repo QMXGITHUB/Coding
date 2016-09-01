@@ -32,5 +32,10 @@ namespace CodeSmell_StaticMethod
         {
             return String.Format("{0} {1} --- {2}", FirstName, LastName, Departure);
         }
+
+        public override Person CreateNew()
+        {
+            return new Employee();
+        }
     }
 }
