@@ -4,6 +4,7 @@ namespace CodeSmell_StaticMethod
 {
     public class Person
     {
+        public static int age;
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -20,6 +21,11 @@ namespace CodeSmell_StaticMethod
         public override string ToString()
         {
             return string.Format("{0}.{1}", FirstName, LastName);
+        }
+
+        public void SetAge(int i)
+        {
+            age = i;
         }
     }
 

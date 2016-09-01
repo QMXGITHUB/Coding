@@ -8,6 +8,9 @@
             person.FirstName = "NewName";
             person.LastName = "NewFamilyName";
             System.Console.WriteLine(person.ToString());
+
+            var gaoqiang = Person.CreateNew();
+            gaoqiang.SetAge(1);
         }
     }
 }   
