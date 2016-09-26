@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>nugetExample</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>QMX</authors>
+    <owners>QMX</owners>
+    <projectUrl>https://github.com/QMXGITHUB/Coding.git</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Just An Example For Nuget</description>
+    <releaseNotes>Init NugetExam Proj</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Nuget Example</tags>
+  </metadata>
+</package>
